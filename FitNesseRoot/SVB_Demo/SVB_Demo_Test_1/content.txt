@@ -33,6 +33,7 @@ This table creates a variable which will be available in all tests by using tv!t
 | expand section |Attachments |
 | click on link | Attach New File |
 |populate grid|Attachments|column|[1]|row|[1]|with|C:\Users\dan.tobias\Documents\mock_data.sql|
+| wait for | +5 seconds|
 | click on  button | Submit Survey|
 | tear down |
 ***!
