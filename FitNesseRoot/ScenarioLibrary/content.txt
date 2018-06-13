@@ -7,13 +7,13 @@ Default browser can be '''FIREFOX''', '''CHROME''', or '''IE'''
 !define defaultBrowser {FIREFOX}
 
 Default Version can be '''17.2''', '''17.1''', '''16.3''', '''16.2''', '''16.1''', '''7.11''', or '''7.10'''
-!define defaultVersion {17.2}
+!define defaultVersion {18.2}
 
 Default Locale can be '''en_US''' or '''en_GB'''
 !define defaultLocale {en_US}
 
 Default URL should include http or https and /suite (e.g. '''!-https://forum.appian.com/suite-!''' )
-!define defaultUrl {REPLACE_APPIAN_URL}
+!define defaultUrl {https://ps-sandbox1.appiancloud.com/suite}
 **!
 
 !3 To use out of the box functionality, do not update the scenarios below
