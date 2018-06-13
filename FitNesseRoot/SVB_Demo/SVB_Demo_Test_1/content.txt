@@ -25,10 +25,10 @@ This table creates a variable which will be available in all tests by using tv!t
 |populate field |title   |with|tv!title   |
 | populate field| Category| with| Platform |
 | populate field| Date| with| 6/22/2018 |
-| populate grid | Steps | column | [1] | row | [1] | with | Step 1 |
+| populate grid | Steps | column | [1] | row | [1] | with | Step A |
 | populate grid | Steps | column | [2] | row | [1] | with | Here are some details |
 | click on link | Add a step |
-| populate grid | Steps | column | [1] | row | [2] | with | Step 2 |
+| populate grid | Steps | column | [1] | row | [2] | with | Step B |
 | populate grid | Steps | column | [2] | row | [2] | with | Here are some more details |
 | expand section |Attachments |
 | click on link | Attach New File |
