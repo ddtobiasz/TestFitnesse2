@@ -24,7 +24,7 @@ This table creates a variable which will be available in all tests by using tv!t
 |click on action |Add New Survey |
 |populate field |title   |with|tv!title   |
 | populate field| Category| with| Platform |
-| populate field| Date| with| 6/21/2018 |
+| populate field| Date| with| 6/22/2018 |
 | populate grid | Steps | column | [1] | row | [1] | with | Step 1 |
 | populate grid | Steps | column | [2] | row | [1] | with | Here are some details |
 | click on link | Add a step |
