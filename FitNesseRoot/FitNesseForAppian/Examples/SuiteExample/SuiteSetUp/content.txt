@@ -1,9 +1,9 @@
 !*** Initialization
 This table initializes the fixture class and sets the environment defaults
 !| script             |com.appiancorp.ps.automatedtest.fixture.TempoFixture|
-|set appian url to    |APPIAN_URL                                          |
-|set appian version to|APPIAN_VERSION                                      |
-|set appian locale to |APPIAN_LOCALE                                       |
+|set appian url to    |https://ps-sandbox1.appiancloud.com/suite                                          |
+|set appian version to|18.2                                      |
+|set appian locale to |en_US                                       |
 ***!
 !*** Set Suite Variables
 This table creates a variable which will be available in all tests by using tv!titleThis table creates a variable which will be available in all tests by using tv!title
