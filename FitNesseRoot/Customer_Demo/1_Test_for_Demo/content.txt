@@ -7,7 +7,7 @@
 !| script             |com.appiancorp.ps.automatedtest.fixture.TempoFixture|
 |setup with           |FIREFOX                   |browser                  |
 |set appian url to    |https://ps-sandbox1.appiancloud.com/suite|
-|set appian version to|18.2                                      |
+|set appian version to|18.3                                      |
 |set appian locale to |en_US                                       |
 |login with username|test-fitness-user|
 !*** Set Suite Variables
@@ -32,7 +32,7 @@ This table creates a variable which will be available in all tests by using tv!t
 | populate grid | Steps | column | [2] | row | [2] | with | Here are some more details |
 | expand section |Attachments |
 | click on link | Attach New File |
-|populate grid|Attachments|column|[1]|row|[1]|with|C:\Users\dan.tobias\Documents\mock_data.sql|
+|populate grid|Attachments|column|[1]|row|[1]|with|C:\Users\dan.tobias\Downloads\mock_data.sql|
 | wait for | +5 seconds|
 | click on  button | Submit Survey|
 | tear down |

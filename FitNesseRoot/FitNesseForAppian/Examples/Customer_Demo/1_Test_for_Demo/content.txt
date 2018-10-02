@@ -1,0 +1,39 @@
+!***> FitNesse Configurations
+!define TEST_SYSTEM {slim}
+!define COMMAND_PATTERN {java -Dlog4j.configuration=file:///${automated.testing.home}/log4j.properties -cp %p %m}
+!path ${automated.testing.home}/**.jar
+***!
+!*** Initialization
+!| script             |com.appiancorp.ps.automatedtest.fixture.TempoFixture|
+|setup with           |FIREFOX                   |browser                  |
+|set appian url to    |https://ps-sandbox1.appiancloud.com/suite|
+|set appian version to|18.3                                      |
+|set appian locale to |en_US                                       |
+|login with username|test-fitness-user|
+!*** Set Suite Variables
+This table creates a variable which will be available in all tests by using tv!titleThis table creates a variable which will be available in all tests by using tv!title
+|script                                       |
+|$var=            |get random string|5        |
+|set test variable|title            |with|$var|
+***!
+***!
+!*** Run script
+!| script                     |
+| wait for | +5 seconds|
+| click on menu | actions|
+|click on action |Add New Survey |
+|populate field |title   |with|tv!title   |
+| populate field| Category| with| Platform |
+| populate field| Date| with| 6/20/2018 |
+| populate grid | Steps | column | [1] | row | [1] | with | Step A |
+| populate grid | Steps | column | [2] | row | [1] | with | Here are some details |
+| click on link | Add a step |
+| populate grid | Steps | column | [1] | row | [2] | with | Step B |
+| populate grid | Steps | column | [2] | row | [2] | with | Here are some more details |
+| expand section |Attachments |
+| click on link | Attach New File |
+|populate grid|Attachments|column|[1]|row|[1]|with|C:\Users\dan.tobias\Downloads\mock_data.sql|
+| wait for | +5 seconds|
+| click on  button | Submit Survey|
+| tear down |
+***!

@@ -7,7 +7,7 @@ Default browser can be '''FIREFOX''', '''CHROME''', or '''IE'''
 !define defaultBrowser {FIREFOX}
 
 Default Version can be '''17.2''', '''17.1''', '''16.3''', '''16.2''', '''16.1''', '''7.11''', or '''7.10'''
-!define defaultVersion {18.2}
+!define defaultVersion {18.3}
 
 Default Locale can be '''en_US''' or '''en_GB'''
 !define defaultLocale {en_US}

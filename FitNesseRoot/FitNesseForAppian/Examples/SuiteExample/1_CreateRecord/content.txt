@@ -1,7 +1,7 @@
 !*** Complete Create Record Action
 !| script                                 |
 |click on menu  |Actions                  |
-|click on action|New Support Ticket       |
+|click on action|Create Support Ticket       |
 |populate field |title   |with|tv!title   |
 |populate field |status  |with|In Progress|
 |populate field |priority|with|High       |
